@@ -50,6 +50,10 @@
 
 ---
 
+### 🏷 Related Topics & Search Keywords
+`fire-calculator` · `financial-independence-retire-early` · `4-percent-rule` · `trinity-study-calculator` · `retirement-simulator` · `bear-market-stress-test` · `passive-income-target` · `compound-interest-calculator`
+
+---
 <a id="chinese"></a>
 <p align="right">
   <a href="#top"><b>Back to Top (English)</b></a> | <b>中文说明</b>
@@ -67,3 +71,6 @@
 4. **绝对隐私保障**：计算逻辑全部在前端浏览器完成，不向云端发送任何财务数据，无需注册登录。
 
 🌐 **立即在线体验**：[**https://free.ailatest.org/zh/**](https://free.ailatest.org/zh/)
+
+### 🏷 热门搜索关键词与相关主题
+`FIRE计算器` · `财务自由测算` · `提前退休计算器` · `4%安全提取率` · `被动收入测算` · `熊市压力测试` · `资产复利推演` · `财务自由需要多少钱` · `数字游民财务规划`
