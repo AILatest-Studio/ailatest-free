@@ -1,59 +1,69 @@
-# AILatest FIRE Calculator · 财务自由计算器 💰
+<a id="top"></a>
+<p align="right">
+  <b>English</b> | <a href="#chinese"><b>中文说明</b></a>
+</p>
+
+# AILatest FIRE Calculator · Financial Independence Simulator 💰
 
 <p align="center">
-  <b>算出目标金额和还要几年。基于 4% 安全提取法则与通胀率，极简测算退休所需资产，完全免登录。</b><br>
-  FIRE (Financial Independence, Retire Early) 实践者的轻量极速规划工具。
+  <b>Determine your financial freedom target range and timeline before choosing your lifestyle.</b><br>
+  财务自由极简测算器。基于 4% 安全提取法则与通胀复利模型，一键测算实现财务自由所需的资产目标与年限。免登录，计算仅在本地浏览器运行。
 </p>
 
 <p align="center">
-  <a href="https://free.ailatest.org/zh/"><img src="https://img.shields.io/badge/立即测算-free.ailatest.org-a8506a?style=for-the-badge&logo=cloudflare" alt="Live Site"></a>
-  <a href="https://free.ailatest.org/en/"><img src="https://img.shields.io/badge/English_Version-Available-blue?style=for-the-badge" alt="English"></a>
-  <a href="https://ailatest.org/projects/free/"><img src="https://img.shields.io/badge/产品介绍页-FIRE-pink?style=for-the-badge" alt="Studio"></a>
+  <a href="https://free.ailatest.org/zh/"><img src="https://img.shields.io/badge/Live_Tool-free.ailatest.org-10b981?style=for-the-badge&logo=cloudflare" alt="Live Tool"></a>
+  <img src="https://img.shields.io/badge/Privacy-100%25_Client--side-success?style=for-the-badge" alt="Privacy">
+  <img src="https://img.shields.io/badge/Stress_Test-Bear_Market_Simulation-red?style=for-the-badge" alt="Stress Test">
+  <img src="https://img.shields.io/badge/Languages-EN_%2F_ZH_Bilingual-blue?style=for-the-badge" alt="Bilingual">
 </p>
 
 ---
 
-## 🖼 视觉预览 · Visual Overview
+## 🖼 Visual Showcase
 
-### 1. 官方封面插画
+### 1. Official Cover Art
 <p align="center">
-  <a href="https://free.ailatest.org/">
-    <img src="assets/covers/free.webp" alt="FIRE 计算器官方插画" width="920">
+  <img src="assets/covers/free.webp" alt="AILatest FIRE Calculator Cover Art" width="860">
+</p>
+
+### 2. Live Application Interface
+<p align="center">
+  <a href="https://free.ailatest.org/zh/">
+    <img src="assets/screenshots/preview.png" alt="AILatest FIRE Calculator Live Interface" width="920">
   </a>
 </p>
+<p align="center"><em>Live screenshot captured from production: <a href="https://free.ailatest.org/zh/">free.ailatest.org</a>.</em></p>
 
-### 2. 真实在线测算界面截图 (Live Application Interface)
-<p align="center">
-  <a href="https://free.ailatest.org/">
-    <img src="assets/screenshots/preview.png" alt="FIRE 计算器真实在线界面截图" width="920">
-  </a>
+---
+
+## 🌟 Key Features
+
+1. **Trinity 4% Safe Withdrawal Logic**: Computes exact baseline asset targets needed to cover living expenses in perpetuity.
+2. **4 Calculation Benchmarks**:
+   - **Conservative**: Lower expected yield, robust buffer.
+   - **Baseline**: Balanced historical market baseline.
+   - **S&P 500 Historical**: Benchmarked against S&P 500 real long-term returns.
+   - **Nasdaq 100 Historical**: Higher growth model reflecting tech-weighted performance.
+3. **Bear Market Stress Testing**: Models how a 20-30% market recession impacts your timeline and calculates how many additional years of savings would be needed.
+4. **100% Local-First Privacy**: No data leaves your machine. Calculations happen client-side in pure JavaScript without server transmission.
+5. **Interactive Progress Donut & Sensitivity Range**: Visualizes current asset progress (e.g. 16.5% reached) and outputs target sensitivity ranges (e.g. ¥3.2M - ¥4.2M).
+
+---
+
+<a id="chinese"></a>
+<p align="right">
+  <a href="#top"><b>Back to Top (English)</b></a> | <b>中文说明</b>
 </p>
-<p align="center"><em>界面截图截取自线上站点 <a href="https://free.ailatest.org/zh/">free.ailatest.org/zh/</a>。</em></p>
 
----
+## 🇨🇳 中文介绍 · AILatest FIRE Calculator
 
-## 🌟 核心理念与测算模型
+### 为什么需要 FIRE 计算器？
+许多人想知道“到底攒够多少钱才能辞职换轻松工作”，但网上的测算工具要么强制收集手机号，要么计算模型粗糙。
 
-### 什么是 FIRE？
-FIRE 代表 **Financial Independence, Retire Early（财务独立，提早退休）**。其核心逻辑是通过提升储蓄率、理性消费与持续稳健投资，使得投资资产产生的**被动收入能够永远覆盖年度生活支出**。
+**FIRE 计算器主打“先算自由的区间，再决定路径”**：
+1. **多重基准对比**：支持「保守」、「基准」、「标普500历史参照」与「纳指100历史参照」四种场景一键切换。
+2. **精细化收支模型**：分开录入必要月支出、弹性月支出、退休后被动月收入与一次性大额预留金。
+3. **熊市压力测试**：测算经历资本市场回撤时，你的财务自由时间表会推迟几年，提前备足安全垫。
+4. **绝对隐私保障**：计算逻辑全部在前端浏览器完成，不向云端发送任何财务数据，无需注册登录。
 
-### 计算公式与模型
-1. **FIRE 目标金额 (FIRE Number)**：
-   $$\text{FIRE 目标金额} = \frac{\text{年度生活总支出}}{\text{安全提取率 (SWR)}}$$
-   通常安全提取率（Safe Withdrawal Rate）取经典三一学院研究（Trinity Study）的 **4%**，即目标资产约为年支出的 **25 倍**。
-2. **通胀与复利时间测算**：
-   结合您的当前已有净资产、每年新增储蓄与预期投资年化实际净收益率，计算出资产跨越 FIRE 红线所需的具体年限与月数。
-
----
-
-## ⚡️ 工具特色
-
-- **零门槛、免注册、保护隐私**：纯前端执行全部数学模型计算，不上传任何财务隐私数据。
-- **多种自由形态支持**：支持 Lean FIRE（极简温饱型）、Standard FIRE（品质生活型）与 Fat FIRE（丰裕自由型）的支出切换。
-- **精细化参数微调**：投资收益率、通胀预期、安全提取率一拉即测。
-
----
-
-## 🌐 立即测算
-
-算算你距离财务自由还有多久：[**https://free.ailatest.org/zh/**](https://free.ailatest.org/zh/)\n
+🌐 **立即在线体验**：[**https://free.ailatest.org/zh/**](https://free.ailatest.org/zh/)
