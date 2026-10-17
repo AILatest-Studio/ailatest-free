@@ -6,9 +6,9 @@
 </p>
 
 <p align="center">
-  <a href="https://free.ailatest.org/zh/"><img src="https://img.shields.io/badge/Live_Site-free.ailatest.org-a8506a?style=for-the-badge&logo=cloudflare" alt="Live Site"></a>
+  <a href="https://free.ailatest.org/zh/"><img src="https://img.shields.io/badge/立即测算-free.ailatest.org-a8506a?style=for-the-badge&logo=cloudflare" alt="Live Site"></a>
   <a href="https://free.ailatest.org/en/"><img src="https://img.shields.io/badge/English_Version-Available-blue?style=for-the-badge" alt="English"></a>
-  <a href="https://ailatest.org/projects/free/"><img src="https://img.shields.io/badge/Studio_Page-FIRE-pink?style=for-the-badge" alt="Studio"></a>
+  <a href="https://ailatest.org/projects/free/"><img src="https://img.shields.io/badge/产品介绍页-FIRE-pink?style=for-the-badge" alt="Studio"></a>
 </p>
 
 ---
@@ -22,13 +22,13 @@
   </a>
 </p>
 
-### 2. 真实在线测算界面截图 (Live Application Screenshot)
+### 2. 真实在线测算界面截图 (Live Application Interface)
 <p align="center">
   <a href="https://free.ailatest.org/">
     <img src="assets/screenshots/preview.png" alt="FIRE 计算器真实在线界面截图" width="920">
   </a>
 </p>
-<p align="center"><em>界面截图截取自线上生产环境 <a href="https://free.ailatest.org/zh/">free.ailatest.org/zh/</a>。</em></p>
+<p align="center"><em>界面截图截取自线上站点 <a href="https://free.ailatest.org/zh/">free.ailatest.org/zh/</a>。</em></p>
 
 ---
 
